@@ -183,3 +183,90 @@ body {
 .sd-icon {
   width: 30px;
 }
+
+.sd-navbar {
+  width: 100vw;
+  background: #303032;
+}
+
+.sd-navbar ul {
+  list-style: none;
+}
+
+.sd-navbar ul ul {
+  display: none;
+  position: absolute;
+}
+
+.sd-navbar li:hover ul {
+  display: block;
+}
+
+.sd-navbar li {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+
+.sd-navbar a {
+  color: #f0f0f0;
+  text-decoration: none;
+  text-align: center;
+}
+
+.sd-navbar a:hover {
+  color: #ff00ff;
+}
+
+.sd-link {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+.sd-link:hover {
+  color: #c8c8c8;
+}
+
+.sd-link-detail {
+  cursor: pointer;
+}
+
+.sd-link-detail:hover {
+  color: #808080;
+}
+
+.sd-autocomplete {
+  position: relative;
+}
+
+.sd-autocomplete input {
+  width: 200px;
+  height: 25px;
+}
+
+.sd-autocomplete-ul {
+  display: none;
+  position: fixed;
+  background: #c8c8c8;
+  z-index: 1;
+  width: 200px;
+}
+
+.sd-autocomplete-ul ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+.sd-autocomplete-ul ul li {
+  padding: 5px;
+}
+
+.sd-autocomplete-ul ul li:hover {
+  background-color: #808080;
+}
+
+#img-katy {
+  position: absolute;
+  width: 200px;
+  z-index: 1;
+}

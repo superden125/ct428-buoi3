@@ -33,11 +33,7 @@
             <a href="/ct428/buoi3/process/dangxuat.php"><button class="sd-btn sd-btn-dx sd-btn-userinfo">Đăng xuất</button></a>
             
         </div>
-        <ul>
-            <li><a href="/ct428/buoi3/danhsachsp.php">Danh sách sản phẩm</a></li>
-            <li><a href="/ct428/buoi3/themsp.php">Thêm sản phẩm</a></li>
-            <li><a href="/ct428/buoi3/thongtincanhan.php">Thông tin cá nhân</a></li>
-        </ul>
+        
     <?php }?>
     
 </div>
